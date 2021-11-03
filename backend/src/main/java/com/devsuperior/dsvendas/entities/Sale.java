@@ -46,11 +46,11 @@ public class Sale {
 		this.id = id;
 	}
 
-	public Integer getCisited() {
+	public Integer getVisited() {
 		return visited;
 	}
 
-	public void setCisited(Integer cisited) {
+	public void setVisited(Integer cisited) {
 		this.visited = cisited;
 	}
 
