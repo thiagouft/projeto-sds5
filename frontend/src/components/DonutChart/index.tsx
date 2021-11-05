@@ -5,7 +5,7 @@ import { SaleSum } from "types/sale";
 import { BASE_URL } from "utils/request";
 
 type ChartData = {
-  labels: String[];
+  labels: string[];
   series: number[];
 };
 

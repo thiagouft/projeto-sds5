@@ -1,18 +1,18 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import Chart from "react-apexcharts";
-import { SaleSuccess, SaleSum } from "types/sale";
+import { SaleSuccess } from "types/sale";
 import { round } from "utils/format";
 import { BASE_URL } from "utils/request";
 
 type SeriesData = {
-  name: String;
+  name: string;
   data: number[];
 };
 
 type ChartData = {
   labels: {
-    categories: String[];
+    categories: string[];
   };
   series: SeriesData[];
 };
